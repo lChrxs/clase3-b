@@ -1,0 +1,25 @@
+<!-- <p *ngIf="bActivo">first works!</p>
+<button id="btn">Toggle</button>
+<br>
+
+<ng-container *ngFor="let pais of paises; let i=index">
+  <h2 id="{{i}}">{{pais.id}}. </h2>
+  <span>{{pais.nombre}}</span>
+</ng-container>
+
+<ng-container *ngFor="let platillo of platillos">
+  <div [ngSwitch]="platillo.pais">
+    <p *ngSwitchCase="PAISES.MEXICO">Mexico ==> {{platillo.platillo}}</p>
+    <p *ngSwitchCase="PAISES.COLOMBIA">Colombia ==> {{platillo.platillo}}</p>
+    <p *ngSwitchCase="PAISES.ARGENTINA">Argentina ==> {{platillo.platillo}}</p>
+    <p *ngSwitchCase="PAISES.PUERTO_RICO">Puerto Rico ==> {{platillo.platillo}}</p>
+    <p *ngSwitchDefault>Undefined</p>
+  </div>
+</ng-container> -->
+
+<!-- Si no tiene parametros, va sin [] -->
+<!-- Si se deja el selector default, es necesario indicar el selector antes de los atributos -->
+<!-- <h1 appColor [color]="'darkblue'" [size]="'50px'" [dynamicColor]="'purple'" style="font-weight: bold;">Creando una directiva</h1>
+<h1  appColor [color]="'#CB2BA5'" [fontStyle]="'italic'" style="color: green;">Element Ref => Native Element</h1> -->
+
+<h1 id="titulo" #titulo>Aprendiendo a usar ViewChild</h1>
